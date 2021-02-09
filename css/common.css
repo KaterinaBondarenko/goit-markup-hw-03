@@ -1,0 +1,39 @@
+:root {
+  --text-black: #212121;
+  --text-grey: #757575;
+  --text-grey-op60: 255, 255, 255, 0, 6;
+  --text-white: #ffffff;
+  --blue: #2196f3;
+  --header-color: #ffffff;
+  --dop-page-color: #2f303a;
+  --page-color-op10: 245, 244, 250, 1;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+a,
+address {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
