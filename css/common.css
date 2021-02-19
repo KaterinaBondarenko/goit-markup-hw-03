@@ -7,6 +7,7 @@
   --header-color: #ffffff;
   --dop-page-color: #2f303a;
   --page-color-op10: 245, 244, 250, 1;
+  --list-item-gap: 30px;
 }
 
 .visually-hidden {
@@ -23,8 +24,11 @@
   overflow: hidden;
 }
 
-ul {
+ul,
+li {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 a,
@@ -36,4 +40,34 @@ button {
   cursor: pointer;
   border: none;
   outline: none;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
